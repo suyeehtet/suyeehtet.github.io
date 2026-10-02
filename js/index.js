@@ -14,3 +14,26 @@ async function type() {
 }
 
 type();
+const nameInput = document.querySelector(".guest-name");
+const messageInput = document.querySelector(".guest-message");
+const postButton = document.querySelector(".post");
+const messages = document.querySelector(".messages");
+
+postButton.addEventListener("click", function () {
+
+    const name = nameInput.value;
+    const message = messageInput.value;
+
+    if (name === "" || message === "") {
+        return;
+    }
+
+    const newMessage = document.createElement("p");
+
+    newMessage.innerHTML = "<b>" + name + "</b><br>" + message;
+
+    messages.prepend(newMessage);
+
+    nameInput.value = "";
+    messageInput.value = "";
+});

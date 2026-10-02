@@ -40,3 +40,150 @@ button:hover {
     background: white;
     color: rgb(106, 56, 56);
 }
+.guestbook {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 180px;
+    color: white;
+    text-align: left;
+}
+
+.guestbook h3 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.messages {
+    height: 90px;
+    overflow-y: auto;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 8px;
+    margin-bottom: 6px;
+}
+
+.messages p {
+    font-size: 11px;
+    margin: 0 0 8px 0;
+}
+
+.guestbook {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    width: 150px;
+    color: white;
+    text-align: left;
+}
+
+.guestbook h3 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.messages {
+    height: 75px;
+    overflow-y: auto;
+    border: 1px solid white;
+    border-radius: 13px;
+    padding: 7px;
+    margin-bottom: 5px;
+}
+
+.messages p {
+    font-size: 10px;
+    margin: 0 0 7px 0;
+}
+
+.guestbook {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    width: 165px;
+    color: white;
+    text-align: left;
+}
+
+.guestbook h3 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.messages {
+    height: 82px;
+    overflow-y: auto;
+    border: 1px solid white;
+    border-radius: 14px;
+    padding: 8px;
+    margin-bottom: 6px;
+}
+
+.messages p {
+    font-size: 10px;
+    margin: 0 0 7px 0;
+}
+
+.guestbook {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    width: 175px;
+    color: white;
+    text-align: left;
+}
+
+.guestbook h3 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.messages {
+    height: 88px;
+    overflow-y: auto;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 8px;
+    margin-bottom: 6px;
+}
+
+.messages p {
+    font-size: 11px;
+    margin: 0 0 7px 0;
+}
+
+.guestbook input,
+.guestbook textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 6px 9px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.guestbook textarea {
+    height: 40px;
+    resize: none;
+}
+
+.guestbook input::placeholder,
+.guestbook textarea::placeholder {
+    color: white;
+}
+
+.guestbook .post {
+    position: static;
+    transform: none;
+    float: right;
+    font-size: 11px;
+    padding: 4px 11px;
+}
