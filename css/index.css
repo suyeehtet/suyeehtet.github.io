@@ -187,3 +187,23 @@ button:hover {
     font-size: 11px;
     padding: 4px 11px;
 }
+.construction {
+    position: fixed;
+    bottom: 37px;
+    right: 10px;
+    margin: 0;
+    font-size: 11px;
+    color: white;
+
+    animation: construction 1.5s ease-in-out infinite;
+}
+
+@keyframes construction {
+    0%, 100% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}

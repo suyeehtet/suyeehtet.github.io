@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: rgb(204, 127, 140);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 80px;
+    font-size: 24px;
+}
+
+.projects {
+    width: 500px;
+    max-width: 80%;
+    margin: 50px auto;
+}
+
+.project {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.project h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.project p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.type {
+    font-size: 11px !important;
+    margin-top: 4px;
+}
+
+.tools {
+    font-size: 11px !important;
+    margin-bottom: 0;
+}
+
+button {
+    font-size: 13px;
+    padding: 6px 15px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+    color: rgb(106, 56, 56);
+}
+
+.back {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.since {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+}
