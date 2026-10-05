@@ -55,16 +55,10 @@ p {
     margin: 2px 0;
 }
 
-
-/* DATES */
-
 .date {
     float: right;
     white-space: nowrap;
 }
-
-
-/* BULLETS */
 
 ul {
     margin: 2px 0 5px 18px;
@@ -74,9 +68,6 @@ ul {
 li {
     margin: 1px 0;
 }
-
-
-/* BUTTON */
 
 button {
     font-size: 13px;
@@ -93,17 +84,11 @@ button:hover {
     color: rgb(106, 56, 56);
 }
 
-
-/* BACK BUTTON */
-
 .back {
     position: fixed;
     top: 10px;
     left: 10px;
 }
-
-
-/* SMALL SCREENS */
 
 @media (max-width: 850px) {
 
